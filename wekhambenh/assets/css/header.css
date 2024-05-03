@@ -1,0 +1,56 @@
+.frame-8{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100vw - 405.3px);
+  box-sizing: border-box;
+  margin: 35px 0px 10px 0px;
+}
+.frame-9{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-right: 28px;
+}
+.frame-10{
+  box-shadow: var(--main-shdw, 0px 4px 20px 0px rgba(188, 188, 188, 0.25));
+  border-radius: 100px;
+  border: 1px solid var(--main-strk, #E4E4E4);
+  background: #FFFFFF;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 14.9px;
+  box-sizing: border-box;
+}
+.smilewithme-1{
+  border-radius: 100px;
+  background: url('/wekhambenh/assets/img/avatar.png') 50% / cover no-repeat;
+  margin-right: 15px;
+  width: 67.5px;
+  height: 64px;
+}
+.profile{
+  margin: 19px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+.welcome-samuel{
+  margin: 20px 12px 20px 28px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+.frame-11{
+  margin: 18px 0;
+  width: 28px;
+  height: 28px;
+
+}

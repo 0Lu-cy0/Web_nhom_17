@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    background-color: #F5FDFF;
+}
+
+.all {
+    width: calc(100vw - 112px);
+    /* 100vw - 56px(left) - 56px(right) */
+    height: calc(100vh - 112px);
+    /* 100vh - 56px(top) - 56px(bottom) */
+    margin: 56px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px 0px #BCBCBC40;
+    overflow: auto;
+}
+
+.frame-1{
+    width: 1283.88px;
+    height: 126px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 48.16px;
+    margin-top: 47.64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background: url('../img/logo_1.png') 50% / cover no-repeat;
+    width: 334.6px;
+    height: 126px;   
+    
+}
+.frame-2{
+    margin-top: 39px;
+    margin-left: 48.16px;
+    width: 1283.88px;
+    height: 351.58px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+}
+.picture{
+    border-radius: 8px;
+    background: url('../img/Picture2.png') 50% / cover no-repeat;
+    width: 725.41px;
+    height: 351.58px;
+    box-sizing: border-box;
+    margin-right: 48px;
+}
+.frame-3{
+    width: 510px;
+    height: 351.58px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.health-specialist-near-you{
+    font-size: 64px;
+    line-height: 1.1;
+
+}
+
+.frame-4{
+    border-radius: 100px;
+    width: 200px;
+    background-color: burlywood;
+    box-sizing: border-box;
+    display: flex;  
+    justify-content: center ;
+    align-items: center;
+}
+.get-started{
+    text-align: center;
+    line-height: 50px;
+    padding: auto;
+    margin: auto;
+} 
+
+.frame-4:hover{
+    background-color: #15C9CB;
+}

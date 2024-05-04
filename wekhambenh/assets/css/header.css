@@ -25,7 +25,7 @@
 }
 .smilewithme-1{
   border-radius: 100px;
-  background: url('/wekhambenh/assets/img/avatar.png') 50% / cover no-repeat;
+  background: url('../img/avatar.png') 50% / cover no-repeat;
   margin-right: 15px;
   width: 67.5px;
   height: 64px;

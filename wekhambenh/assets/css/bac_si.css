@@ -1,0 +1,92 @@
+.frame33 {
+  border-radius: 100px;
+  border: 1px solid var(--main-strk, #E4E4E4);
+  background: #F6F6F6;
+  width: 356px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.frame34 {
+  width: 60px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+  box-sizing: border-box;
+  border-radius: 100px 0 0 100px;
+}
+
+.frame35 {
+  width: 133px;
+  height: 40px;
+  border-left: 1px solid #E4E4E4;
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+  box-sizing: border-box;
+}
+
+.frame36 {
+  width: 163px;
+  height: 40px;
+  border-left: 1px solid #E4E4E4;
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+  border-radius: 0 100px 100px 0;
+  box-sizing: border-box;
+}
+
+.menu-text {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  color: #616161;
+}
+
+.frame34:hover,
+.frame35:hover,
+.frame36:hover {
+  background-color: #15C9CB;
+}
+
+.frame34 .menu-text,
+.frame35 .menu-text,
+.frame36 .menu-text {
+  color: #616161;
+}
+
+.frame34:hover .menu-text,
+.frame35:hover .menu-text,
+.frame36:hover .menu-text {
+  color: #000000;
+}
+
+.frame37 {
+  width: calc(100vw - 405.3px);
+  height: 100%;
+  border-width: 31px 34px 31px 34px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.frame34.active,
+.frame35.active,
+.frame36.active {
+  background-color: #15C9CB;
+}
+
+/* Thêm màu chữ cho trạng thái active */
+.frame34.active .menu-text,
+.frame35.active .menu-text,
+.frame36.active .menu-text {
+  color: #000000;
+}

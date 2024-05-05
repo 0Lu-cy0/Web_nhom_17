@@ -15,28 +15,54 @@
     box-shadow: 0px 4px 20px 0px #BCBCBC40;
 }
 
-.search {
-    background-image: url(../img/search_1.png);
-    height: 28px;
-    width: 28px;
-    position: absolute;
-    background-repeat: no-repeat;
-    margin: 16px 20px;
-
+.content{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  /* background-color: hotpink; */
 }
 
+.search {
+    height: 28px;
+    width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 30px 0 0 30px;
+    width: 60px;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px  solid #E4E4E4;
+    border-right: none;
+
+}
 .input {
     width: 534px;
     height: 60px;
-    border-radius: 100px;
-    border: 1px solid #E4E4E4;
-    background-color: #F6F6F6;
-
+    border-radius: 0 30px 30px 0;
+    border:1px solid #E4E4E4;
+    border-left: none;
+    background-color: none;
+}
+.frame31{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: flex-start;
+  box-sizing: border-box;
+  width: calc(100vw - 405.3px);
+  height: 100%;
 }
 
 .frame32 {
     display: flex;
+    align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
 }
 
 body {
@@ -63,10 +89,11 @@ body {
     display: flex;
     flex-direction: row;
     align-self: center;
-    /* justify-content: space-between; */
     box-sizing: border-box;
     margin-top: 30px;
-    margin-left: 90px;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 .frame34{
   width: 60px;
@@ -128,5 +155,11 @@ body {
 .frame35:hover .top-rated,
 .frame36:hover .best-reviews {
   color: #000000;
+}
+.frame37{
+  width: calc(100vw - 405.3px);
+  height: 100%;
+  background-color: red;
+  border: 31px 34px 31px 34px;
 }
 

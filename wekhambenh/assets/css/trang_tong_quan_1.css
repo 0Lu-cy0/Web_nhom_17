@@ -6,21 +6,13 @@
 
 .all {
   width: calc(100vw - 112px);
-  /* 100vw - 56px(left) - 56px(right) */
   height: calc(100vh - 112px);
-  /* 100vh - 56px(top) - 56px(bottom) */
   margin: 56px;
-  background-color: #fff;
+  background-color: white;
   border-radius: 8px;
   box-shadow: 0px 4px 20px 0px #BCBCBC40;
 }
 
-.content {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  /* background-color: hotpink; */
-}
 
 .search {
   height: 28px;
@@ -174,8 +166,7 @@ body {
   border-style: solid;
   border-color: #fff;
   display: flex;
-  width: 33%;
-  height: 33%;
+  
 }
 
 .frame34.active,
@@ -197,31 +188,28 @@ body {
   width: 244px;
   height: 317px;
   gap: 16px;
-  border-radius: 10px 0px 0px 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
-  border: 1px solid pink;
-
+  border: 1px solid #E4E4E4;
+  background-color: #F6F6F6;
+  margin: 31px 10px 67px 34px;
 }
 
 .frame41 {
-  width: Fill (244px)px;
-  height: Fill (244px)px;
+  width: 244px;
+  height: 244px;
   padding: 10px 49px 10px 49px;
   gap: 18px;
-  opacity: 0px;
+
 
 }
 
-.ellipse{
+.ellipse {
   width: 100px;
   height: 100px;
-  border: 1px 0px 0px 0px;
   margin-left: 23px;
 
 }
 
-.Dr_Sonia_Kabwa{
+.Dr_Sonia_Kabwa {
   width: 150px;
   height: 24px;
   font-family: Inter;
@@ -234,7 +222,7 @@ body {
   margin-bottom: 18px;
 }
 
-.years_experiences{
+.years_experiences {
   width: 142px;
   height: 17px;
   font-family: Inter;
@@ -246,34 +234,54 @@ body {
   margin-bottom: 18px;
 }
 
-.frame39{
-  width: Hug (161px)px;
-  height: Hug (29px)px;
+.frame39 {
+  width: 161px;
+  height: 29px;
   padding: 6px 20px 6px 20px;
   background-color: #D6F3F3;
 }
 
-.Family_Specialiste{
+.Family_Specialiste {
   width: 121px;
   height: 17px;
-  gap: 0px;
-  opacity: 0px;
   font-family: Inter;
   font-size: 14px;
   font-weight: 500;
   line-height: 16.94px;
   text-align: left;
   color: #02A3F7;
-  
+
 }
 
 
-/* 
+
 .frame40 {
+  display: flex;
   width: 244px;
   height: 57px;
-  padding: 10px 16px 10px 16px;
+  margin-top: 16px;
   gap: 10px;
-  opacity: 0px;
+  background-color: #D6F3F3;
+}
 
-} */
+.bookan {
+  width: 28px;
+  height: 28px;
+  margin: 14.5px 5.5px 14.5px 31.5px;
+}
+
+.Book_an_appointment {
+  width: 143px;
+  height: 17px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  color: #000000;
+  margin: 20px 31.5px 20px 0px;
+}
+
+.frame37{
+  display: flex;
+}

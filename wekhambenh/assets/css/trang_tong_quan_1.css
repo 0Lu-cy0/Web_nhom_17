@@ -156,12 +156,24 @@ body {
 .frame36:hover .best-reviews {
   color: #000000;
 }
-.frame37{
+
+.frame37 {
   width: calc(100vw - 405.3px);
   height: 100%;
-  background-color: red;
   border-width: 31px 34px 31px 34px;
   border-style: solid;
-  border-color: #fff;
+  border-color: #fff; 
 }
 
+.frame34.active,
+.frame35.active,
+.frame36.active {
+  background-color: #15C9CB;
+}
+
+/* Thêm màu chữ cho trạng thái active */
+.frame34.active .menu-text,
+.frame35.active .menu-text,
+.frame36.active .menu-text {
+  color: #000000;
+}

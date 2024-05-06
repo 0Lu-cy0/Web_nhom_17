@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../assets/css/trang_tong_quan_1.css">
     <script src="../assets/js/header.js"></script>
     <script src="../assets/js/left.js"></script>
+    <link rel="stylesheet" href="../assets/css/bac_si.css">
     <title>trang_tong_quan_1</title>
 </head>
 
@@ -22,23 +23,27 @@
                     <label for="search" class="search"><img src="../assets/img/search_1.png" alt=""></label>
                     <input class="input" type="search">
                 </div>
-                <div class="frame33">
-                    <div class="frame34">
-                        <span class="all-1">All</span>
+                <ul class="frame33">
+                    <li class="frame34 active" onclick="showDiv('div1')"><span class="menu-text">All</span></li>
+                    <li class="frame35" onclick="showDiv('div2')"><span class="menu-text">Top Rated</span></li>
+                    <li class="frame36" onclick="showDiv('div3')"><span class="menu-text">Best Reviews</span></li>
+                </ul>
+                <div id="div1" class="frame37" style="background-color: lightblue; display: block;">
+                    <div class="frame38">
+                        <div class="frame41">
+                            <img class="ellipse" src="../assets/img/" alt="">
+                        </div>
+                        <div class="frame40"></div>
                     </div>
-                    <div class="frame35">
-                        <span class="top-rated">Top Rated</span>
-                    </div>
-                    <div class="frame36">
-                        <span class="best-reviews">Best Reviews</span>
-                    </div>
-                </div>
-                <div class="frame37">
-                    <div class="frame38"></div>
                     <div class="frame39"></div>
                     <div class="frame40"></div>
                 </div>
+                <!-- <div id="div2" class="frame37" style="background-color: lightgreen; display: none;">Div 2</div>
+                <div id="div3" class="frame37" style="background-color: lightpink; display: none;">Div 3</div> -->
+
+                <script src="../assets/js/bac_si.js"></script>
             </div>
+            
         </div>
 </body>
 

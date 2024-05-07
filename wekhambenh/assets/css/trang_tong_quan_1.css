@@ -74,6 +74,90 @@ body {
   box-sizing: border-box;
 }
 
+
+.frame38 {
+  margin: 31px 0px 67px 34px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-around;
+  height: calc(100% - 40px);
+  /* Subtract the height of the menu */
+}
+
+.ellipse {
+  width: 100px;
+  height: 100px;
+}
+
+.frame39 {
+  width: 244px;
+  height: 317px;
+  margin: 10px;
+  gap: 16px;
+  border: 1px solid #E4E4E4;
+  background-color: #F6F6F6;
+}
+
+.frame40 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 244px;
+  height: 244px;
+  gap: 18px;
+}
+
+.frame41 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 244px;
+  height: 57px;
+  margin-top: 16px;
+  background-color: #D6F3F3;
+}
+
+/* Add different colors for each child box */
+/* #div1 .frame39:nth-child(1) {
+  background-color: #f00;
+}
+
+#div1 .frame39:nth-child(2) {
+  background-color: #0f0;
+}
+
+#div1 .frame39:nth-child(3) {
+  background-color: #00f;
+} */
+/* Add different colors for each child box in 'Top Rated' */
+/* #div2 .frame39:nth-child(1) {
+  background-color: #abc;
+}
+
+#div2 .frame39:nth-child(2) {
+  background-color: #cba;
+}
+
+#div2 .frame39:nth-child(3) {
+  background-color: #bac;
+} */
+
+/* Add different colors for each child box in 'Best Reviews' */
+/* #div3 .frame39:nth-child(1) {
+  background-color: #123;
+}
+
+#div3 .frame39:nth-child(2) {
+  background-color: #231;
+}
+
+#div3 .frame39:nth-child(3) {
+  background-color: #312;
+} */
+
+
 .frame33 {
   border-radius: 100px;
   border: 1px solid var(--main-strk, #E4E4E4);
@@ -87,7 +171,6 @@ body {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .frame34 {
@@ -100,13 +183,6 @@ body {
   border-radius: 100px 0 0 100px;
 }
 
-.all-1 {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 20px;
-}
-
 .frame35 {
   width: 133px;
   height: 40px;
@@ -115,13 +191,6 @@ body {
   justify-content: center;
   padding: 8px 0;
   box-sizing: border-box;
-}
-
-.top-rated {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 20px;
 }
 
 .frame36 {
@@ -135,11 +204,12 @@ body {
   box-sizing: border-box;
 }
 
-.best-reviews {
+.menu-text {
   overflow-wrap: break-word;
   font-family: 'Inter';
   font-weight: 400;
   font-size: 20px;
+  color: #616161;
 }
 
 .frame34:hover,
@@ -148,25 +218,24 @@ body {
   background-color: #15C9CB;
 }
 
-.frame34 .all-1,
-.frame35 .top-rated,
-.frame36 .best-reviews {
+.frame34 .menu-text,
+.frame35 .menu-text,
+.frame36 .menu-text {
   color: #616161;
 }
 
-.frame34:hover .all-1,
-.frame35:hover .top-rated,
-.frame36:hover .best-reviews {
+.frame34:hover .menu-text,
+.frame35:hover .menu-text,
+.frame36:hover .menu-text {
   color: #000000;
 }
 
 .frame37 {
-  /* width: calc(100vw - 405.3px); */
+  width: calc(100vw - 405.3px);
+  height: 100%;
   border-width: 31px 34px 31px 34px;
   border-style: solid;
   border-color: #fff;
-  display: flex;
-  gap: 20px;
 }
 
 .frame34.active,
@@ -180,107 +249,4 @@ body {
 .frame35.active .menu-text,
 .frame36.active .menu-text {
   color: #000000;
-}
-
-
-
-.frame38 {
-  width: 244px;
-  height: 317px;
-  gap: 16px;
-  border: 1px solid #E4E4E4;
-  background-color: #F6F6F6;
-}
-
-.frame41 {
-  width: 244px;
-  height: 244px;
-  padding: 10px 49px 10px 49px;
-  gap: 18px;
-
-
-}
-
-.ellipse {
-  width: 100px;
-  height: 100px;
-  margin-left: 23px;
-
-}
-
-.Dr_Sonia_Kabwa {
-  width: 150px;
-  height: 24px;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24.2px;
-  text-align: center;
-  color: black;
-  margin-top: 18px;
-  margin-bottom: 18px;
-}
-
-.years_experiences {
-  width: 142px;
-  height: 17px;
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16.94px;
-  text-align: center;
-  color: #616161;
-  margin-bottom: 18px;
-}
-
-.frame39 {
-  width: 161px;
-  height: 29px;
-  padding: 6px 20px 6px 20px;
-  background-color: #D6F3F3;
-}
-
-.Family_Specialiste {
-  width: 121px;
-  height: 17px;
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16.94px;
-  text-align: left;
-  color: #02A3F7;
-
-}
-
-
-
-.frame40 {
-  display: flex;
-  width: 244px;
-  height: 57px;
-  margin-top: 16px;
-  gap: 10px;
-  background-color: #D6F3F3;
-}
-
-.bookan {
-  width: 28px;
-  height: 28px;
-  margin: 14.5px 5.5px 14.5px 31.5px;
-}
-
-.Book_an_appointment {
-  width: 143px;
-  height: 17px;
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16.94px;
-  text-align: left;
-  color: #000000;
-  margin: 20px 31.5px 20px 0px;
-}
-
-.frame37{
-  display: flex;
 }

@@ -166,7 +166,7 @@ body {
   border-style: solid;
   border-color: #fff;
   display: flex;
-  
+  gap: 20px;
 }
 
 .frame34.active,
@@ -190,7 +190,6 @@ body {
   gap: 16px;
   border: 1px solid #E4E4E4;
   background-color: #F6F6F6;
-  margin: 31px 10px 67px 34px;
 }
 
 .frame41 {

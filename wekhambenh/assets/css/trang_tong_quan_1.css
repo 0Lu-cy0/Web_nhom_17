@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 .all {
@@ -74,20 +75,19 @@ body {
   box-sizing: border-box;
 }
 
+.ellipse {
+  width: 100px;
+  height: 100px;
+}
 
 .frame38 {
-  margin: 31px 0px 67px 34px;
+  margin: 31px 0px 0px 34px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-content: space-around;
   height: calc(100% - 40px);
   /* Subtract the height of the menu */
-}
-
-.ellipse {
-  width: 100px;
-  height: 100px;
 }
 
 .frame39 {
@@ -117,6 +117,41 @@ body {
   height: 57px;
   margin-top: 16px;
   background-color: #D6F3F3;
+}
+
+:hover.frame41 {
+  background-color: #15C9CB;
+}
+
+.Dr_Sonia_Kabwa {
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.years_experiences {
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-weight: 400;
+  font-size: 14px;
+  color: #616161;
+}
+
+.frame42 {
+  border-radius: 8px;
+  background: #D6F3F3;
+  padding: 6px 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.Family_Specialiste{
+  overflow-wrap: break-word;
+  font-size: 14px;
+  font-weight: 500;
+  color: #02A3F7;
 }
 
 /* Add different colors for each child box */
@@ -206,7 +241,7 @@ body {
 
 .menu-text {
   overflow-wrap: break-word;
-  font-family: 'Inter';
+  /* font-family: initial; */
   font-weight: 400;
   font-size: 20px;
   color: #616161;

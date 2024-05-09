@@ -2,25 +2,18 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 .all {
   width: calc(100vw - 112px);
-  /* 100vw - 56px(left) - 56px(right) */
   height: calc(100vh - 112px);
-  /* 100vh - 56px(top) - 56px(bottom) */
   margin: 56px;
-  background-color: #fff;
+  background-color: white;
   border-radius: 8px;
   box-shadow: 0px 4px 20px 0px #BCBCBC40;
 }
 
-/* .content{
-display: flex;
-flex-direction: row;
-position: relative;
-background-color: hotpink;
-} */
 
 .search {
   height: 28px;
@@ -34,26 +27,28 @@ background-color: hotpink;
   height: 60px;
   padding-left: 20px;
   padding-right: 20px;
-  border: 1px  solid #E4E4E4;
+  border: 1px solid #E4E4E4;
   border-right: none;
 
 }
+
 .input {
   width: 534px;
   height: 60px;
   border-radius: 0 30px 30px 0;
-  border:1px solid #E4E4E4;
+  border: 1px solid #E4E4E4;
   border-left: none;
   background-color: none;
 }
-.frame31{
-display: flex;
-flex-direction: column;
-align-items: flex-end;
-align-self: flex-start;
-box-sizing: border-box;
-width: calc(100vw - 405.3px);
-height: 100%;
+
+.frame31 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: flex-start;
+  box-sizing: border-box;
+  width: calc(100vw - 405.3px);
+  height: 100%;
 }
 
 .frame32 {
@@ -79,6 +74,142 @@ body {
   height: calc(100vh - 112px);
   box-sizing: border-box;
 }
+
+.ellipse {
+  width: 100px;
+  height: 100px;
+}
+
+.frame38 {
+  margin: 31px 0px 0px 34px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-around;
+  height: calc(100% - 40px);
+  /* Subtract the height of the menu */
+}
+
+.frame39 {
+  width: 244px;
+  height: 317px;
+  margin: 10px;
+  gap: 16px;
+  border: 1px solid #E4E4E4;
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-doctor-1 {
+  margin: 0 0 16px 0.5px;
+  width: 36px;
+  height: 36px;
+}
+
+.add_new_doctor {
+  overflow-wrap: break-word;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.frame40 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 244px;
+  height: 244px;
+  gap: 18px;
+}
+
+.frame41 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 244px;
+  height: 57px;
+  margin-top: 16px;
+  background-color: #D6F3F3;
+}
+
+:hover.frame41 {
+  background-color: #15C9CB;
+}
+
+.Dr_Sonia_Kabwa {
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.years_experiences {
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-weight: 400;
+  font-size: 14px;
+  color: #616161;
+}
+
+.frame42 {
+  border-radius: 8px;
+  background: #D6F3F3;
+  padding: 6px 20px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.Family_Specialiste {
+  overflow-wrap: break-word;
+  font-size: 14px;
+  font-weight: 500;
+  color: #02A3F7;
+}
+
+/* Add different colors for each child box */
+/* #div1 .frame39:nth-child(1) {
+  background-color: #f00;
+}
+
+#div1 .frame39:nth-child(2) {
+  background-color: #0f0;
+}
+
+#div1 .frame39:nth-child(3) {
+  background-color: #00f;
+} */
+/* Add different colors for each child box in 'Top Rated' */
+/* #div2 .frame39:nth-child(1) {
+  background-color: #abc;
+}
+
+#div2 .frame39:nth-child(2) {
+  background-color: #cba;
+}
+
+#div2 .frame39:nth-child(3) {
+  background-color: #bac;
+} */
+
+/* Add different colors for each child box in 'Best Reviews' */
+/* #div3 .frame39:nth-child(1) {
+  background-color: #123;
+}
+
+#div3 .frame39:nth-child(2) {
+  background-color: #231;
+}
+
+#div3 .frame39:nth-child(3) {
+  background-color: #312;
+} */
+
+
 .frame33 {
   border-radius: 100px;
   border: 1px solid var(--main-strk, #E4E4E4);
@@ -127,7 +258,7 @@ body {
 
 .menu-text {
   overflow-wrap: break-word;
-  font-family: 'Inter';
+  /* font-family: initial; */
   font-weight: 400;
   font-size: 20px;
   color: #616161;
@@ -145,7 +276,7 @@ body {
   color: #616161;
 }
 
-.frame34:hover .menu-text,  
+.frame34:hover .menu-text,
 .frame35:hover .menu-text,
 .frame36:hover .menu-text {
   color: #000000;

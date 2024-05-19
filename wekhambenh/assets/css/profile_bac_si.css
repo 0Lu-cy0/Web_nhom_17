@@ -1,3 +1,4 @@
+
 body{
     margin: 0px;
     background-color: #F5FDFF;
@@ -10,7 +11,7 @@ body{
     border-radius: 8px;
     box-shadow: 0px 4px 20px 0px #BCBCBC40;
 }
-.frame-12{
+.right {
     margin-left: 293.3px;
     display: flex;
     flex-direction: column;
@@ -18,15 +19,160 @@ body{
     width: calc(100vw- 405.3px);
     height: calc(100vh - 112px);
     box-sizing: border-box;
-}
-.frame-13{
+  }
+  
+  .frame31 {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    align-self: flex-start;
     width: fit-content;
     box-sizing: border-box;
     padding: 18px 0;
     width: 100%;
     height: 100%;
+  }
+  
+  .avt{
+    width: 224px;
+    height: 336px;
+  }
+
+  .frame50{
+    display:  flex;
+    margin-top: 137.5px;
+    margin-left: 20px;
+  }
+
+  .frame60{
+    display: flex;
+    width: 760px;
+    height: 53px;
+    position: relative;
+
+
+  }
+
+  .text{
+    width: 270px;
+    height: 44px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.57px;
+    text-align: left;
+    color: #15C9CB;
+  }
+
+  .sao{
+    width: 28px;
+    height: 28px;
+  }
+
+  .text2{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: center;
+    color: #959595;
+  }
+
+.frame59{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 141px;
+    height: 53px;
+}
+
+.text3{
+    width: 127px;
+    height: 19px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    color: black;
+    margin-top: 30px;
+}
+
+.frame52{
+    width: 201px;
+    height: 28px;
+    margin-top: 25px;
+}
+
+.frame54{
+    width:135px;
+    height:51px; 
+    text-align: center;
+    background-color:#15C9CB;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.frame53{
+    width:135px;
+    height:51px;
+    text-align: center;
+    background-color:#15C9CB;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.frame56{
+    width: 350px;
+    height: 51px;
+    display: flex;
+    gap: 60px;
+    margin-top: 25px;
+}
+
+.text4{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+}
+
+.frame58{
+    margin-left: 10px;
+}
+
+.frame57{
+    margin-top: 25px;
+    gap: 220px;
+    display: flex;
+}
+
+.text5{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.94px;
+    text-align: left;
+    font-family: Inter;
+}
+
+.text6{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+}
+
+.frame4{
+    width: 341px;
+    height: 66px;
+    background-color: #15C9CB;
+    font-size: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+.book{
+    width: 28px;
+    height: 28px;  
 }

@@ -1,4 +1,5 @@
 body{
+    font-family: Inter;
     margin: 0px;
     background-color: #F5FDFF;
 }
@@ -22,11 +23,163 @@ body{
 .frame-13{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     align-self: flex-start;
     width: fit-content;
     box-sizing: border-box;
     padding: 18px 0;
     width: 100%;
     height: 100%;
+}
+
+.your_appointments{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.frame-51{
+    width: 659px;
+    height: 382px;
+    overflow-y: auto; /* Sử dụng overflow-y để chỉ định thanh cuộn theo chiều dọc */
+    margin-bottom: 20px; /* Thêm margin dưới để tạo khoảng cách giữa danh sách cuộc hẹn và nút "Book a new appointment" */
+}
+
+.frame-52{
+    width: 642px; /* Để xác định kích thước thẻ */
+    height: 118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-photo {
+    margin-left: 18px;
+    width: 100px;
+    height: 100px;
+}
+
+.status {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.pending {
+    background-color: #d3f3ff;
+    color: #00aaff;
+    width: 55px;
+    height: 17px;
+    padding: 4px 10px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.rejected {
+    background-color: #ffd3d3;
+    color: #ff0000;
+    width: 58px;
+    height: 17px;
+    padding: 4px 10px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.approved {
+    background-color: #d3ffd3;
+    color: #00aa00;
+    width: 64px;
+    height: 17px;
+    padding: 4px 10px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.info-box {
+    flex-grow: 1;
+    margin-left: 10px;
+    border-width: 8px 22px 8px 22px;
+    border-style: solid;
+    border-color: #FFFFFF; /* Màu viền */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-box h3, .info-box p, .info-box .status {
+    margin: 4px 0;
+}
+
+.btn {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.action-box{
+    width: 199px;
+    height: 55px;
+    margin-right: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancel {
+    width: 83px;
+    height: 37px;
+    background-color: #d92e2e;
+    color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.done {
+    width: 72px;
+    height: 37px;
+    background-color: #29f49a;
+    color: white;
+    border-radius: 10px;
+}
+
+.book-appointment {
+    width: 341px;
+    height: 66px;
+    background-color: #15C9CB;
+    font-size: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-top: 28px;
+}
+
+.book{
+    width: 28px;
+    height: 28px;  
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.text6{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    margin-top: auto;
+    margin-bottom: auto;
 }

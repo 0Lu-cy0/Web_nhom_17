@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0;
+    background-color: #F5FDFF;
+    font-family: "Inter", sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.all {
+    width: calc(100vw - 112px);
+    /* 100vw - 56px(left) - 56px(right) */
+    height: calc(100vh - 112px);
+    /* 100vh - 56px(top) - 56px(bottom) */
+    margin: 56px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px 0px #BCBCBC40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+
+}
+
+.frame-7 {
+    width: 1328 px;
+    height: 174px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    background: url('../img/logo_1.png') 50% / cover no-repeat;
+    width: 334.64px;
+    height: 126px;
+}
+
+.frame-19 {
+    width: 491px;
+    height: 252px;
+    background-color: white;
+}
+
+.login {
+    text-align: center;
+    text-decoration: none;
+    color: #02A3F7;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 3;
+}
+
+.frame-17 {
+    margin-top: 30px;
+    border-bottom: 2px solid #02A3F7;
+    margin-bottom: 20px;
+}
+
+.Email {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.frame-18 {
+    border-bottom: 2px solid #02A3F7;
+    margin-top: 10px;
+}
+
+.password {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.fogot {
+    color: #7C7C7C;
+    font-size: 12px;
+    margin-left: 350px;
+}
+
+.frame-65 {
+    border-radius: 100px;
+    width: 187px;
+    background-color: #E4E4E4;
+    background-color: ;
+    margin-top: 20px;
+    padding: 19px 19px 19px 19px;
+    margin-left: 130px;
+}
+
+.frame-4 {
+    text-align: center;
+}
+
+.frame-4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 550;
+}
+
+.frame-65:hover {
+    background-color: #15C9CB;
+}
+
+.frame-66 {
+    width: 491px;
+    height: 87px;
+}
+.dont{
+    font-size: 12px;
+    text-align: center;
+}
+.D{
+    color: #959595;
+}
+.D:hover{
+    color: #15C9CB;
+}
+::placeholder{
+    color: black;
+}

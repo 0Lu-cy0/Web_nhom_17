@@ -19,3 +19,7 @@ $(document).ready(function() {
       window.location.href = "trang_tong_quan_about.html"; // Thay thế 'about.html' bằng đường dẫn thực tế của trang About
   });
 });
+
+$(function(){
+    $("#left").load("left.html"); 
+  });

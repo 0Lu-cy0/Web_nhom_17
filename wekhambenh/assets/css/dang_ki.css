@@ -146,11 +146,21 @@ html {
     width: 451px;
     height: 130px;
 }
-.profile{
-    background: url("../img/profile.png") 0% / cover no-repeat;
+.frame-40{
+    margin-top: 10px;
+    background-color: #F6F6F6;
     width: 114px;
     height: 130px;
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px ;
+}
+.profile{
+    background: url("../img/Picfile.png") 0% / cover no-repeat;
+    width: 28px;
+    height: 28px;
 }
 
 .frame-65{
@@ -183,6 +193,4 @@ html {
 ::placeholder{
     color: black;
 }
-.profile:hover{
-    background-color: #15C9CB;
-}
+

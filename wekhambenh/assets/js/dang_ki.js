@@ -17,8 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
             localStorage.setItem('emailAddress', emailAddress);
             localStorage.setItem('password', password);
 
-            alert("Đăng ký thành công.");
+            alert("Đăng ký thành cônSg.");
 
         }
+    });
+    document.querySelector('.profile').addEventListener('click', function() {
+        document.getElementById('fileInput').click();
     });
 });

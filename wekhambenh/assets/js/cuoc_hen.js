@@ -1,33 +1,76 @@
-$(document).ready(function() {
-    // Show noti-box when clicking on Cancel
-    $('.cancel').click(function() {
-        $(this).closest('.frame-52').find('.noti-box').show();
-    });
+let currentBoxId = "";
 
-    // Show noti-box-2 when clicking on Done
-    $('.done').click(function() {
-        $(this).closest('.frame-52').find('.noti-box-2').show();
-    });
+// Show confirmation modal
+function showModal(boxId, message) {
+    currentBoxId = boxId;
+    console.log('currentBoxId set to:', currentBoxId);  // Debug
+    let modal = document.getElementById('myModal');
+    let modalText = document.getElementById('modalText');
+    let noButton = document.getElementById('noButtonModal');
+    
+    modalText.innerHTML = `<div class="custom-text">${message}</div>`;
+    modal.style.top = "0";
+    modal.classList.add('show');
+    
+    // Close modal when clicking "No" or close button
+    let span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+        modal.style.top = "-100%";
+        modal.classList.remove('show');
+    }
+    noButton.onclick = function () {
+        modal.style.top = "-100%";
+        modal.classList.remove('show');
+    }
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.top = "-100%";
+            modal.classList.remove('show');
+        }
+    }
+}
 
-    // Remove appointment-card and show success-box when clicking Yes in noti-box
-    $('#yes-btn').click(function() {
-        $(this).closest('.frame-52').remove();
-        $(this).siblings('.success-box').show();
-    });
+// Remove the appointment card and show success modal
+function removeBox() {
+    console.log('Attempting to remove box with ID:', currentBoxId);  // Debug
+    let box = document.getElementById(currentBoxId);
+    if (box) {
+        box.parentNode.removeChild(box);
+        console.log('Box removed');  // Debug
+        let modal = document.getElementById('myModal');
+        modal.style.top = "-100%";
+        modal.classList.remove('show');
+        showSuccessModal('Appointment deleted!');
+    } else {
+        console.error('Box with ID ' + currentBoxId + ' not found.');
+    }
+}
 
-    // Remove appointment-card and show success-box-2 when clicking Yes in noti-box-2
-    $('#yes-btn-2').click(function() {
-        $(this).closest('.frame-52').remove();
-        $(this).siblings('.success-box-2').show();
-    });
+// Show success modal
+function showSuccessModal(message) {
+    let modal = document.getElementById('successModal');
+    let modalText = document.getElementById('successModalText');
+    
+    modalText.innerHTML = `<div class="success-message">${message}</div>`;
+    modal.style.top = "0";
+    modal.classList.add('show');
+    
+    let span = document.getElementsByClassName("close")[1];
+    span.onclick = function () {
+        modal.style.top = "-100%";
+        modal.classList.remove('show');
+    }
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.top = "-100%";
+            modal.classList.remove('show');
+        }
+    }
+}
 
-    // Hide notification boxes when clicking No or OK
-    $('.no, .ok').click(function() {
-        $(this).closest('.noti-box, .success-box').hide();
-    });
-
-    // Hide notification boxes when clicking the close button (x)
-    $('.close').click(function() {
-        $(this).closest('.noti-box, .success-box').hide();
-    });
-});
+// Close the success modal
+function closeSuccessModal() {
+    let modal = document.getElementById('successModal');
+    modal.style.top = "-100%";
+    modal.classList.remove('show');
+}

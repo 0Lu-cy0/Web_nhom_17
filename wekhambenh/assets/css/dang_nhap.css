@@ -93,10 +93,10 @@ html {
     border-radius: 100px;
     width: 187px;
     background-color: #E4E4E4;
-    background-color: ;
     margin-top: 20px;
     padding: 19px 19px 19px 19px;
     margin-left: 130px;
+    cursor: pointer;
 }
 
 .frame-4 {

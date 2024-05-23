@@ -117,6 +117,7 @@ body {
   height: 57px;
   margin-top: 16px;
   background-color: #D6F3F3;
+  cursor: pointer;
 }
 
 :hover.frame41 {
@@ -154,45 +155,6 @@ body {
   color: #02A3F7;
 }
 
-/* Add different colors for each child box */
-/* #div1 .frame39:nth-child(1) {
-  background-color: #f00;
-}
-
-#div1 .frame39:nth-child(2) {
-  background-color: #0f0;
-}
-
-#div1 .frame39:nth-child(3) {
-  background-color: #00f;
-} */
-/* Add different colors for each child box in 'Top Rated' */
-/* #div2 .frame39:nth-child(1) {
-  background-color: #abc;
-}
-
-#div2 .frame39:nth-child(2) {
-  background-color: #cba;
-}
-
-#div2 .frame39:nth-child(3) {
-  background-color: #bac;
-} */
-
-/* Add different colors for each child box in 'Best Reviews' */
-/* #div3 .frame39:nth-child(1) {
-  background-color: #123;
-}
-
-#div3 .frame39:nth-child(2) {
-  background-color: #231;
-}
-
-#div3 .frame39:nth-child(3) {
-  background-color: #312;
-} */
-
-
 .frame33 {
   border-radius: 100px;
   border: 1px solid var(--main-strk, #E4E4E4);
@@ -216,6 +178,7 @@ body {
   padding: 8px 0;
   box-sizing: border-box;
   border-radius: 100px 0 0 100px;
+  cursor: pointer;
 }
 
 .frame35 {
@@ -226,6 +189,7 @@ body {
   justify-content: center;
   padding: 8px 0;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .frame36 {
@@ -237,6 +201,7 @@ body {
   padding: 8px 0;
   border-radius: 0 100px 100px 0;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .menu-text {

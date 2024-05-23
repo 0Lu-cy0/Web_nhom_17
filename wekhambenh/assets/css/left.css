@@ -1,150 +1,175 @@
-   .doctors{
-    margin: 2px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 20px;
-    color: #000000;
-  }
-  .add-doctors{
-    margin-left: 28px;
-    margin-right: 10px;
-    width: 28px;
-    height: 28px;
-  }
-  .frame-6{
-    border-radius: 10px;
-    border: 1px solid #E4E4E4;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    padding: 12px 0;
-    width: 243.3px;
-    box-sizing: border-box;
-  }
-  .frame-1{
-    border-right: 1px solid #E4E4E4;
-    margin-right: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 10px 20px 9px;
-    width: 293.3px;
-    box-sizing: border-box;
-    height: calc(100vh - 112px);
-    position: fixed;
-  }
- .frame-2{
-    margin-bottom: 250.1px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 273.3px;
-    box-sizing: border-box;
-  }
- .logo{
-    background: url('../img/logo_1.png') 50% / cover no-repeat;
-    margin-bottom: 64px;
-    width: 273.3px;
-    height: 102.9px;
-  }
- .frame-3{
-    margin: 0 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 243.3px;
-    box-sizing: border-box;
-  }
- .frame-4{
-    border-radius: 10px;
-    border: 1px solid #E4E4E4;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    padding: 12px 0;
-    width: 243.3px;
-    box-sizing: border-box;
-  }
- .home{
-    margin-right: 10px;
-    margin-left: 28px;
-    width: 28px;
-    height: 28px;
-  }
- .home-1{
-    margin: 2px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 20px;
-    color: #000000;
-  }
- .frame-5{
-    border-radius: 10px;
-    border: 1px solid var(--main-strk, #E4E4E4);
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    padding: 12px 0;
-    width: 243.3px;
-    box-sizing: border-box;
-  }
- .calendar-days{
-    margin-left: 28px;
-    margin-right: 10px;
-    width: 28px;
-    height: 28px;
-  }
- .appointments{
-    margin: 2px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 20px;
-    color: #000000;
-  }
- .frame-7{
-    border-radius: 10px;
-    border: 1px solid #E4E4E4;
-    display: flex;
-    flex-direction: row;
-    padding: 12px 0;
-    width: 243.3px;
-    box-sizing: border-box;
-  }
- .about{
-    margin-right: 10px;
-    margin-left: 28px;
-    width: 28px;
-    height: 28px;
-  }
- .about-1{
-    margin: 2px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 20px;
-    color: #000000;
-  }
- .copyright-2024{
-    overflow-wrap: break-word;
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 14px;
-    color: #959595;
-  }
+   .doctors {
+     margin: 2px 0;
+     display: inline-block;
+     overflow-wrap: break-word;
+     font-family: 'Inter';
+     font-weight: 500;
+     font-size: 20px;
+     color: #000000;
+   }
 
-  .frame-4:hover,
-  .frame-5:hover,
-  .frame-6:hover,
-  .frame-7:hover {
-    background-color: #15C9CB;
-  }
+   .add-doctors {
+     margin-left: 28px;
+     margin-right: 10px;
+     width: 28px;
+     height: 28px;
+   }
 
-  
+   .frame-6 {
+     border-radius: 10px;
+     border: 1px solid #E4E4E4;
+     margin-bottom: 10px;
+     display: flex;
+     flex-direction: row;
+     padding: 12px 0;
+     width: 243.3px;
+     box-sizing: border-box;
+     cursor: pointer;
+   }
+
+   .frame-1 {
+     border-right: 1px solid #E4E4E4;
+     margin-right: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 10px 20px 9px;
+     width: 293.3px;
+     box-sizing: border-box;
+     height: calc(100vh - 112px);
+     position: fixed;
+   }
+
+   .frame-2 {
+     margin-bottom: 250.1px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 273.3px;
+     box-sizing: border-box;
+   }
+
+   .logo {
+     background: url('../img/logo_1.png') 50% / cover no-repeat;
+     margin-bottom: 64px;
+     width: 273.3px;
+     height: 102.9px;
+   }
+
+   .frame-3 {
+     margin: 0 15px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 243.3px;
+     box-sizing: border-box;
+   }
+
+   .frame-4 {
+     border-radius: 10px;
+     border: 1px solid #E4E4E4;
+     margin-bottom: 10px;
+     display: flex;
+     flex-direction: row;
+     padding: 12px 0;
+     width: 243.3px;
+     box-sizing: border-box;
+     cursor: pointer;
+   }
+
+   .home {
+     margin-right: 10px;
+     margin-left: 28px;
+     width: 28px;
+     height: 28px;
+   }
+
+   .home-1 {
+     margin: 2px 0;
+     display: inline-block;
+     overflow-wrap: break-word;
+     font-family: 'Inter';
+     font-weight: 500;
+     font-size: 20px;
+     color: #000000;
+   }
+
+   .frame-5 {
+     border-radius: 10px;
+     border: 1px solid var(--main-strk, #E4E4E4);
+     margin-bottom: 10px;
+     display: flex;
+     flex-direction: row;
+     padding: 12px 0;
+     width: 243.3px;
+     box-sizing: border-box;
+     cursor: pointer;
+   }
+
+   .calendar-days {
+     margin-left: 28px;
+     margin-right: 10px;
+     width: 28px;
+     height: 28px;
+   }
+
+   .appointments {
+     margin: 2px 0;
+     display: inline-block;
+     overflow-wrap: break-word;
+     font-family: 'Inter';
+     font-weight: 500;
+     font-size: 20px;
+     color: #000000;
+   }
+
+   .frame-7 {
+     border-radius: 10px;
+     border: 1px solid #E4E4E4;
+     display: flex;
+     flex-direction: row;
+     padding: 12px 0;
+     width: 243.3px;
+     box-sizing: border-box;
+     cursor: pointer;
+   }
+
+   .about {
+     margin-right: 10px;
+     margin-left: 28px;
+     width: 28px;
+     height: 28px;
+   }
+
+   .about-1 {
+     margin: 2px 0;
+     display: inline-block;
+     overflow-wrap: break-word;
+     font-family: 'Inter';
+     font-weight: 500;
+     font-size: 20px;
+     color: #000000;
+   }
+
+   .copyright-2024 {
+     overflow-wrap: break-word;
+     font-family: 'Inter';
+     font-weight: 500;
+     font-size: 14px;
+     color: #959595;
+   }
+
+   .frame-4:hover,
+   .frame-5:hover,
+   .frame-6:hover,
+   .frame-7:hover {
+     background-color: #15C9CB;
+   }
+
+   .frame-4.selected,
+   .frame-5.selected,
+   .frame-6.selected,
+   .frame-7.selected {
+     background-color: #15C9CB;
+   }

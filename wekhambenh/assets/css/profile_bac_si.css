@@ -113,6 +113,7 @@ body {
   color: #fff;
 }
 
+<<<<<<< HEAD
 .frame53 {
   width: 135px;
   height: 51px;
@@ -226,4 +227,10 @@ body {
 
 .show {
   display: flex !important;
+=======
+.book{
+    width: 28px;
+    height: 28px;  
+    padding-top: 16.5px;
+>>>>>>> 7347169aca8a94d16b870ac273411695a80ba2f0
 }

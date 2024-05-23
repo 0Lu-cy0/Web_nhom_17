@@ -87,6 +87,7 @@ body {
   justify-content: flex-start;
   align-content: space-around;
   height: calc(100% - 40px);
+  overflow-y: auto;
   /* Subtract the height of the menu */
 }
 

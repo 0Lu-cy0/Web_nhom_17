@@ -1,21 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="/wekhambenh/assets/js/left.js"></script>
-    <script src="/wekhambenh/assets/js/header.js"></script>
-    <link rel="stylesheet" href="/wekhambenh/assets/css/Bac_si.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="../assets/js/left.js"></script>
+    <script src="../assets/js/header.js"></script>
+    <link rel="stylesheet" href="../assets/css/cuoc_hen.css">
     <title>cuoc_hen</title>
 </head>
+
 <body>
     <div class="all">
         <div id="left"></div>
         <div class="frame-12">
             <div id="header"></div>
-            <div class="frame-13"></div>
+            <div class="frame-13">
+                <h2 class="your_appointments">Your Appointments</h2>
+                <div class="frame-50">
+                    <div class="frame-51">
+                        <div class="frame-52" id="frame-52">
+                            <div class="photo-box">
+                                <img src="../assets/img/ellipse.png" alt="Dr. Sonia Kabwa" class="doctor-photo">
+                            </div>
+                            <div class="info-box">
+                                <div><span class="name-doctor">Dr. Sonia Kabwa</span></div>
+                                <div><span class="time-rdv">RDV: December, 24th 2023</span></div>
+                                <span class="status pending">pending</span>
+                            </div>
+                            <div class="action-box">
+                                <button class="btn cancel"
+                                    onclick="showModal('frame-52', 'Do you want to cancel this appointment?')">Cancel</button>
+                                <button class="btn done"
+                                    onclick="showModal('frame-52', 'Are you sure that this appointment has been done?')">Done</button>
+                            </div>
+                        </div>
+                        <div class="frame-53" id="frame-53">
+                            <div class="photo-box">
+                                <img src="../assets/img/ellipse.png" alt="Dr. Constante M." class="doctor-photo">
+                            </div>
+                            <div class="info-box">
+                                <div><span class="name-doctor">Dr. Constante M.</span></div>
+                                <div><span class="time-rdv">RDV: December, 24th 2023</span></div>
+                                <span class="status rejected">rejected</span>
+                            </div>
+                            <div class="action-box">
+                                <button class="btn cancel"
+                                    onclick="showModal('frame-53', 'Do you want to cancel this appointment?')">Cancel</button>
+                                <button class="btn done"
+                                    onclick="showModal('frame-53', 'Are you sure that this appointment has been done?')">Done</button>
+                            </div>
+                        </div>
+                        <div class="frame-54" id="frame-54">
+                            <div class="photo-box">
+                                <img src="../assets/img/ellipse.png" alt="Dr. Sylvain Niyonkuru" class="doctor-photo">
+                            </div>
+                            <div class="info-box">
+                                <div><span class="name-doctor">Dr. Sylvain Niyonkuru</span></div>
+                                <div><span class="time-rdv">RDV: December, 24th 2023</span></div>
+                                <span class="status approved">approved</span>
+                            </div>
+                            <div class="action-box">
+                                <button class="btn cancel"
+                                    onclick="showModal('frame-54', 'Do you want to cancel this appointment?')">Cancel</button>
+                                <button class="btn done"
+                                    onclick="showModal('frame-54', 'Are you sure that this appointment has been done?')">Done</button>
+                            </div>
+                        </div>
+                        <div class="frame-55" id="frame-55">
+                            <div class="photo-box">
+                                <img src="../assets/img/ellipse.png" alt="Dr. Sonia Kabwa" class="doctor-photo">
+                            </div>
+                            <div class="info-box">
+                                <div><span class="name-doctor">Dr. Sonia Kabwa</span></div>
+                                <div><span class="time-rdv">RDV: December, 24th 2023</span></div>
+                                <span class="status pending">pending</span>
+                            </div>
+                            <div class="action-box">
+                                <button class="btn cancel"
+                                    onclick="showModal('frame-55', 'Do you want to cancel this appointment?')">Cancel</button>
+                                <button class="btn done"
+                                    onclick="showModal('frame-55', 'Are you sure that this appointment has been done?')">Done</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="book-appointment">
+                        <img class="book" src="../assets/img/book.png" alt="">
+                        <div class="text6">Book a new appointment</div>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content custom-modal-content">
+            <span class="close"></span>
+            <p id="modalText"></p>
+            <div class="choice-box">
+                <button class="yes" onclick="removeBox()">Yes</button>
+                <button class="no" id="noButtonModal">No</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="successModal" class="modal">
+        <div class="modal-content custom-modal-content">
+            <span class="close"></span>
+            <p id="successModalText"></p>
+            <div class="choice-box">
+                <button class="no" id="okButtonModal" onclick="closeSuccessModal()">Ok</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/js/cuoc_hen.js"></script>
 </body>
-</html> 
+
+</html>

@@ -1,180 +1,229 @@
+body {
+  margin: 0px;
+  background-color: #F5FDFF;
+}
 
-body{
-    margin: 0px;
-    background-color: #F5FDFF;
+.all {
+  width: calc(100vw - 112px);
+  /* 100vw - 56px(left) - 56px(right) */
+  height: calc(100vh - 112px);
+  /* 100vh - 56px(top) - 56px(bottom) */
+  margin: 56px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 20px 0px #BCBCBC40;
 }
-.all{
-    width: calc(100vw - 112px); /* 100vw - 56px(left) - 56px(right) */
-    height: calc(100vh - 112px); /* 100vh - 56px(top) - 56px(bottom) */
-    margin: 56px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 20px 0px #BCBCBC40;
-}
+
 .right {
-    margin-left: 293.3px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: calc(100vw- 405.3px);
-    height: calc(100vh - 112px);
-    box-sizing: border-box;
-  }
-  
-  .frame31 {
-    display: flex;
-    width: fit-content;
-    box-sizing: border-box;
-    padding: 18px 0;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .avt{
-    width: 224px;
-    height: 336px;
-  }
-
-  .frame50{
-    display:  flex;
-    margin-top: 137.5px;
-    margin-left: 20px;
-  }
-
-  .frame60{
-    display: flex;
-    width: 760px;
-    height: 53px;
-    position: relative;
-
-
-  }
-
-  .text{
-    width: 270px;
-    height: 44px;
-    font-family: Inter;
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 43.57px;
-    text-align: left;
-    color: #15C9CB;
-  }
-
-  .sao{
-    width: 28px;
-    height: 28px;
-  }
-
-  .text2{
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16.94px;
-    text-align: center;
-    color: #959595;
-  }
-
-.frame59{
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 141px;
-    height: 53px;
+  margin-left: 293.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100vw- 405.3px);
+  height: calc(100vh - 112px);
+  box-sizing: border-box;
 }
 
-.text3{
-    width: 127px;
-    height: 19px;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19.36px;
-    text-align: left;
-    color: black;
-    margin-top: 30px;
+.frame31 {
+  display: flex;
+  width: fit-content;
+  box-sizing: border-box;
+  padding: 18px 0;
+  width: 100%;
+  height: 100%;
 }
 
-.frame52{
-    width: 201px;
-    height: 28px;
-    margin-top: 25px;
+.avt {
+  width: 224px;
+  height: 336px;
 }
 
-.frame54{
-    width:135px;
-    height:51px; 
-    text-align: center;
-    background-color:#15C9CB;
-    border-radius: 10px;
-    color: #fff;
+.frame50 {
+  display: flex;
+  margin-top: 137.5px;
+  margin-left: 20px;
 }
 
-.frame53{
-    width:135px;
-    height:51px;
-    text-align: center;
-    background-color:#15C9CB;
-    border-radius: 10px;
-    color: #fff;
+.frame60 {
+  display: flex;
+  width: 760px;
+  height: 53px;
+  position: relative;
+
+
 }
 
-.frame56{
-    width: 350px;
-    height: 51px;
-    display: flex;
-    gap: 60px;
-    margin-top: 25px;
+.text {
+  width: 270px;
+  height: 44px;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43.57px;
+  text-align: left;
+  color: #15C9CB;
 }
 
-.text4{
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24.2px;
+.sao {
+  width: 28px;
+  height: 28px;
 }
 
-.frame58{
-    margin-left: 10px;
+.text2 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: center;
+  color: #959595;
 }
 
-.frame57{
-    margin-top: 25px;
-    gap: 220px;
-    display: flex;
+.frame59 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 141px;
+  height: 53px;
 }
 
-.text5{
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 16.94px;
-    text-align: left;
-    font-family: Inter;
+.text3 {
+  width: 127px;
+  height: 19px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  color: black;
+  margin-top: 30px;
 }
 
-.text6{
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24.2px;
-    padding-top: 20px;
+.frame52 {
+  width: 201px;
+  height: 28px;
+  margin-top: 25px;
 }
 
-.frame4{
-    width: 341px;
-    height: 66px;
-    background-color: #15C9CB;
-    font-size: 20px;
-    gap: 10px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    text-align: center; 
+.frame54 {
+  width: 135px;
+  height: 51px;
+  text-align: center;
+  background-color: #15C9CB;
+  border-radius: 10px;
+  color: #fff;
 }
 
-.book{
-    width: 28px;
-    height: 28px;  
-    padding-top: 17px;
+.frame53 {
+  width: 135px;
+  height: 51px;
+  text-align: center;
+  background-color: #15C9CB;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.frame56 {
+  width: 350px;
+  height: 51px;
+  display: flex;
+  gap: 60px;
+  margin-top: 25px;
+}
+
+.text4 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+}
+
+.frame58 {
+  margin-left: 10px;
+}
+
+.frame57 {
+  margin-top: 25px;
+  gap: 220px;
+  display: flex;
+}
+
+.text5 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.94px;
+  text-align: left;
+  font-family: Inter;
+}
+
+.text6 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  padding-top: 20px;
+}
+
+.frame4 {
+  width: 341px;
+  height: 66px;
+  background-color: #15C9CB;
+  font-size: 20px;
+  gap: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.book {
+  width: 28px;
+  height: 28px;
+  padding-top: 16.5px;
+}
+
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.show {
+  display: flex !important;
 }

@@ -20,6 +20,6 @@ window.onclick = function (event) {
         modal.classList.remove('show');
         setTimeout(function () {
             modal.style.display = 'none';
-        }, 300);
+        }, 400);
     }
 }

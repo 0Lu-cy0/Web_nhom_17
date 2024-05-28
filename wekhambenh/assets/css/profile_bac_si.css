@@ -111,17 +111,16 @@ body {
   background-color: #15C9CB;
   border-radius: 10px;
   color: #fff;
-}
+} 
 
-<<<<<<< HEAD
-.frame53 {
+.frame56 .frame53 {
   width: 135px;
   height: 51px;
   text-align: center;
   background-color: #15C9CB;
   border-radius: 10px;
   color: #fff;
-}
+} 
 
 .frame56 {
   width: 350px;
@@ -226,11 +225,13 @@ body {
 }
 
 .show {
-  display: flex !important;
-=======
+  display: flex !important;}
 .book{
     width: 28px;
     height: 28px;  
     padding-top: 16.5px;
->>>>>>> 7347169aca8a94d16b870ac273411695a80ba2f0
+}
+
+a{
+  text-decoration: none;
 }
